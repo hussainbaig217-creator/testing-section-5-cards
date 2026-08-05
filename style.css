@@ -398,4 +398,48 @@ Example
         opacity: 1;
     }
 }
+
+
+@media (max-width:768px) {
+
+    .project-body {
+        grid-template-columns: 1fr;
+        /* gap: 2rem; */
+    }
+
+    .project-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-top .project-status {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .project-top .project-category {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .project-date {
+        font-size: clamp(1rem, 1.1rem, 0.8rem, 0.9rem);
+    }
+
+    .featured-tags span {
+        font-size: clamp(1rem, 1.1rem, 0.8rem, 0.9rem);
+    }
+
+    .featured-btn .Github-btn {
+        font-size: clamp(0.8rem, 0.9rem, 0.7rem);
+        padding: 10px 10px;
+    }
+
+    .featured-btn .live-btn {
+        font-size: clamp(0.8rem, 0.9rem, 0.7rem);
+        padding: 10px 10px;
+    }
+
+}
 /* All line is total 2948 */
